@@ -136,6 +136,21 @@ html {
   display: block;
 }
 
+/* Hero text hierarchy fix */
+.hero-subtitle {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.hero-text {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 0.88rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.55);
+}
+
 @keyframes spinBorder {
   100% {
     transform: rotate(360deg);
@@ -307,3 +322,4 @@ section:not(#home) {
 #contact {
   scroll-margin-top: 57px;
 }
+
