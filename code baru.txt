@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Anton Sihotang | IT Infrastructure Leader</title>
+  </head>
+
+  <body id="home" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80" tabindex="0">
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow p-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Anton Sihotang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="jumbotron text-center pt-5 mt-5">
+      <img src="img/anton.png" alt="Anton Sihotang" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-5 fw-bold mt-3">Anton Sihotang</h1>
+      <p class="lead">
+        IT Infrastructure & Operations Leader specializing in enterprise network architecture,
+        IT-OT integration, and high-availability industrial systems supporting 300+ users.
+      </p>
+      <p class="text-muted">
+        Delivering secure, scalable, and resilient infrastructure solutions across manufacturing environments.
+      </p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3 class="fw-bold">About</h3>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-5">
+            <p>
+              IT Infrastructure & Operations Leader with 10+ years of experience managing enterprise-scale manufacturing environments.
+              Specialized in MikroTik RouterOS, VLAN segmentation, VPN/IPsec, firewall security design, and high-availability architecture.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p>
+              Managed infrastructure supporting 47+ managed switches, 16 servers, 220+ CCTV units,
+              200 iPads, and 90 production smartphones — ensuring operational continuity and 99% availability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="bg-light py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3 class="fw-bold">Key Infrastructure Projects</h3>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  Enterprise Network Modernization – Managed 47 managed switches, 60+ access points,
+                  and 300 Mbps ISP redundancy achieving 99% availability.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  Disaster Recovery Strategy – Implemented 2 NAS systems and tape backup infrastructure
+                  protecting 16 enterprise and production servers.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  IT-OT Integration – Integrated enterprise systems with automated cutter machines,
+                  QC iPad deployment, and real-time production monitoring.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  Security Infrastructure Deployment – Managed 220 CCTV units, 90 access controls,
+                  and IP-PBX system with 80 extensions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  Infrastructure Leadership & CAPEX Planning – Led modernization initiatives
+                  across multi-entity industrial environments.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5">
+      <div class="container text-center">
+        <h4 class="fw-bold mb-2">Contact</h4>
+        <p class="text-muted small mb-4">
+          If you are seeking an experienced IT Infrastructure Leader capable of managing complex industrial environments, feel free to connect.
+        </p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3 text-start">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" />
+              </div>
+
+              <div class="mb-3 text-start">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" />
+              </div>
+
+              <div class="mb-3 text-start">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary px-4">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white text-center py-3">
+      <p class="mb-0">
+        © 2026 Anton Sihotang | IT Infrastructure & Operations Leader
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

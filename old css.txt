@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+section#home {
+  margin-top: 0;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color: #e2edff;
+}
+
+.jumbotron::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  top: -100px;
+  right: -100px;
+  filter: blur(80px);
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid white;
+  display: block;
+}
+
+section:not(#home) {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+/* HERO BUTTON */
+.btn-hero {
+  border-radius: 50px;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Hover effect */
+.btn-hero:hover {
+  transform: translateY(-5px);
+  background-color: #ffffff;
+  color: #0a3d91;
+  box-shadow: 0 15px 35px rgba(13, 110, 253, 0.5);
+}
+
+/* Click effect */
+.btn-hero:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* CONTACT BUTTON */
+.btn-send {
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.3);
+}
+
+/* Hover */
+.btn-send:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(13, 110, 253, 0.5);
+}
+
+/* Click effect */
+.btn-send:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(13, 110, 253, 0.3);
+}
+
+/* ABOUT FRAME STYLE */
+.about-card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect biar konsisten dengan project */
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+#home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 140;
+  padding-bottom: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+/* PROFILE */
+.profile-photo {
+  display: block;
+  margin: 0 auto;
+}
+
+/* HERO BUTTON */
+.btn-hero {
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.btn-hero:hover {
+  background-color: #0a1f44;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* STAT HOVER BLUE LIKE SUBMIT BUTTON */
+.stat-box {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.stat-box:hover {
+  background: linear-gradient(135deg, #0d6efd, #0a3d91);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(13, 110, 253, 0.5);
+}
+
+.stat-box:hover .stat-number,
+.stat-box:hover p {
+  color: white;
+}
+
+.stat-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.4s ease,
+    color 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  background: linear-gradient(135deg, #0d6efd, #0a3d91);
+  box-shadow: 0 20px 45px rgba(13, 110, 253, 0.5);
+}
+
+.stat-card h2,
+.stat-card p {
+  transition: color 0.3s ease;
+}
+
+.stat-card:hover h2,
+.stat-card:hover p {
+  color: white;
+}
+
+.stat-card {
+  will-change: transform;
+}
+
+/* ========================= */
+/* STATS SECTION CLEAN CODE  */
+/* ========================= */
+
+.stats-section {
+  background: #f8f9fa;
+  margin-top: -100px;
+  padding: 80px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.stat-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    background 0.45s ease;
+}
+
+.stat-card h2 {
+  font-weight: 700;
+  color: #0d6efd;
+  transition: color 0.35s ease;
+}
+
+.stat-card p {
+  margin: 0;
+  transition: color 0.35s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-12px);
+  background: linear-gradient(135deg, #0d6efd, #0a3d91);
+  box-shadow: 0 25px 55px rgba(13, 110, 253, 0.45);
+}
+
+.stat-card:hover h2,
+.stat-card:hover p {
+  color: #ffffff;
+}
+
+/* ========================= */
+/* CONTACT SECTION IMPROVE  */
+/* ========================= */
+
+#contact .section-description {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+}
